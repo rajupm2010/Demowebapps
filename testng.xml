@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Demowebapps">
+
+
+	<listeners>
+		<listener class-name="utilities.Listeners"/>
+	</listeners>
+	
+	<parameter name="browser" value="chrome" />
+
+	<test thread-count="5" name="Demotestcases">
+		
+		<classes>
+
+			<class name="testcases.TClogintest_001">
+				<methods>
+					<include name="logintest" />
+					<!-- exclude is ignore/skip below tc -->
+					
+				</methods>
+			</class>
+
+		</classes>
+	</test> <!-- Demotestcases -->
+
+
+</suite> <!-- Demowebapps -->

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Demowebapps]" guice-stage="DEVELOPMENT">
+  <parameter name="browser" value="chrome"/>
+  <listeners>
+    <listener class-name="utilities.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="Demotestcases(failed)">
+    <classes>
+      <class name="testcases.TClogintest_001">
+        <methods>
+          <include name="teardown"/>
+          <include name="logintest"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testcases.TClogintest_001 -->
+    </classes>
+  </test> <!-- Demotestcases(failed) -->
+</suite> <!-- Failed suite [Demowebapps] -->
