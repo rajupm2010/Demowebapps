@@ -1,0 +1,27 @@
+pipeline
+agent any
+{
+    
+    stage('Build')
+    {
+        echo "building the project....."
+    }
+   
+    stage('Test')
+    {
+        echo "Testing the project....."
+        cd /d D:\raju\work\studymaterials\engineering\part1\java\eclipseworkspace\Demowebapps
+        run.bat
+    }
+   
+    stage('Deploy')
+    {
+    echo "Deploying the project....."
+    }
+   
+    stage('Release')
+    {
+    echo "Releasing the project....."
+    }
+    
+}
