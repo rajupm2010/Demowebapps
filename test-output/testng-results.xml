@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-10-29T14:20:29Z" name="Demowebapps" finished-at="2023-10-29T14:20:41Z" duration-ms="11750">
+  <suite started-at="2023-11-27T07:09:48Z" name="Demowebapps" finished-at="2023-11-27T07:09:57Z" duration-ms="9067">
     <groups>
     </groups>
-    <test started-at="2023-10-29T14:20:29Z" name="Demotestcases" finished-at="2023-10-29T14:20:41Z" duration-ms="11750">
+    <test started-at="2023-11-27T07:09:48Z" name="Demotestcases" finished-at="2023-11-27T07:09:57Z" duration-ms="9067">
       <class name="testcases.TClogintest_001">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testcases.TClogintest_001@4b41dd5c]" started-at="2023-10-29T14:20:29Z" name="setup" finished-at="2023-10-29T14:20:38Z" duration-ms="8734" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testcases.TClogintest_001@61544ae6]" started-at="2023-11-27T07:09:48Z" name="setup" finished-at="2023-11-27T07:09:52Z" duration-ms="3737" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="logintest()[pri:0, instance:testcases.TClogintest_001@4b41dd5c]" started-at="2023-10-29T14:20:38Z" name="logintest" finished-at="2023-10-29T14:20:40Z" duration-ms="1881" status="PASS">
+        <test-method signature="logintest()[pri:0, instance:testcases.TClogintest_001@61544ae6]" started-at="2023-11-27T07:09:52Z" name="logintest" finished-at="2023-11-27T07:09:56Z" duration-ms="4280" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logintest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testcases.TClogintest_001@4b41dd5c]" started-at="2023-10-29T14:20:40Z" name="teardown" finished-at="2023-10-29T14:20:41Z" duration-ms="1108" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testcases.TClogintest_001@61544ae6]" started-at="2023-11-27T07:09:56Z" name="teardown" finished-at="2023-11-27T07:09:57Z" duration-ms="1010" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
